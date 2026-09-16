@@ -1,6 +1,6 @@
 # Campus Resource Booking System
 
-A small Java command-line project for managing campus resources and their bookings.
+A small Java commandline project for managing campus resources and their bookings.
 
 ## Why this project?
 Campus equipment is easy to track on paper, but checking availability and due dates becomes messy. This program keeps the basic workflow in one place without needing a GUI or a database server.
@@ -19,7 +19,7 @@ Campus equipment is easy to track on paper, but checking availability and due da
 - File I/O (`java.nio.file`)
 - Exception handling and input validation
 - Basic concurrency using `ExecutorService` for report generation
-- Packages and command-line execution
+- Packages and commandline execution
 
 ## Run
 Requires JDK 17 or later.
@@ -40,8 +40,6 @@ Validation tests:
 ./test.sh
 ```
 
-No GUI and no external libraries are required.
-
 ## Project structure
 ```text
 src/campus/
@@ -60,4 +58,4 @@ PROJECT_REPORT.pdf
 ```
 
 ## Data
-The program stores small CSV files in `data/` and creates `out/booking-report.csv` when a report is exported.
+The program stores small CSV files in `data/` and creates `out/bookingreport.csv` when a report is exported.
